@@ -14,7 +14,7 @@ struct SpectrumVisualizerView: View {
         case reset
     }
     
-    @Binding var state: VisualizerState
+    var state: VisualizerState
     @State private var barHeights: [CGFloat] = Array(repeating: 10, count: 5)
     @State private var timer: Timer? = nil
     
