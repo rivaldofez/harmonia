@@ -33,7 +33,6 @@
 		7E8FD8622D58F2650038F701 /* CardMusicViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8FD8612D58F2650038F701 /* CardMusicViewModel.swift */; };
 		7E8FD8642D59077B0038F701 /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8FD8632D59077B0038F701 /* RoundedCorner.swift */; };
 		7E8FD8682D590BA20038F701 /* CardMusicPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8FD8672D590BA20038F701 /* CardMusicPlayerTests.swift */; };
-		7E8FD86B2D590C800038F701 /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8FD86A2D590C800038F701 /* HomeViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,7 +80,6 @@
 		7E8FD8612D58F2650038F701 /* CardMusicViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardMusicViewModel.swift; sourceTree = "<group>"; };
 		7E8FD8632D59077B0038F701 /* RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
 		7E8FD8672D590BA20038F701 /* CardMusicPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardMusicPlayerTests.swift; sourceTree = "<group>"; };
-		7E8FD86A2D590C800038F701 /* HomeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -291,7 +289,6 @@
 		7E8FD8652D590B870038F701 /* Module */ = {
 			isa = PBXGroup;
 			children = (
-				7E8FD8692D590C740038F701 /* Home */,
 				7E8FD8662D590B930038F701 /* CardMusicPlayer */,
 			);
 			path = Module;
@@ -303,14 +300,6 @@
 				7E8FD8672D590BA20038F701 /* CardMusicPlayerTests.swift */,
 			);
 			path = CardMusicPlayer;
-			sourceTree = "<group>";
-		};
-		7E8FD8692D590C740038F701 /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				7E8FD86A2D590C800038F701 /* HomeViewModelTests.swift */,
-			);
-			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -477,7 +466,6 @@
 			files = (
 				7E8FD8682D590BA20038F701 /* CardMusicPlayerTests.swift in Sources */,
 				7E8FD80E2D58B3140038F701 /* HarmoniaTests.swift in Sources */,
-				7E8FD86B2D590C800038F701 /* HomeViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
