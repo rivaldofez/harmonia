@@ -19,6 +19,19 @@
 		7E8FD8342D58C1AF0038F701 /* NetworkInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8FD8332D58C1AF0038F701 /* NetworkInterface.swift */; };
 		7E8FD8362D58C2C00038F701 /* NetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8FD8352D58C2C00038F701 /* NetworkProvider.swift */; };
 		7E8FD8392D58C30E0038F701 /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8FD8382D58C30E0038F701 /* CustomError.swift */; };
+		7E8FD83C2D58CCD50038F701 /* SpectrumVisualizerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8FD83B2D58CCD50038F701 /* SpectrumVisualizerView.swift */; };
+		7E8FD83E2D58CEC80038F701 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8FD83D2D58CEC80038F701 /* HomeViewModel.swift */; };
+		7E8FD8422D58CF100038F701 /* HomeTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8FD8412D58CF100038F701 /* HomeTarget.swift */; };
+		7E8FD8442D58D0500038F701 /* SongResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8FD8432D58D0500038F701 /* SongResponse.swift */; };
+		7E8FD8472D58D27F0038F701 /* AnyPublisher+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8FD8462D58D27F0038F701 /* AnyPublisher+Ext.swift */; };
+		7E8FD8492D58DCA00038F701 /* SongItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8FD8482D58DCA00038F701 /* SongItemView.swift */; };
+		7E8FD84B2D58E35A0038F701 /* ViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8FD84A2D58E35A0038F701 /* ViewState.swift */; };
+		7E8FD84E2D58E5170038F701 /* Shimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8FD84D2D58E5170038F701 /* Shimmer.swift */; };
+		7E8FD85A2D58EABE0038F701 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8FD8592D58EABE0038F701 /* ErrorView.swift */; };
+		7E8FD85C2D58EC7A0038F701 /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8FD85B2D58EC7A0038F701 /* EmptyView.swift */; };
+		7E8FD85E2D58ED580038F701 /* CardMusicPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8FD85D2D58ED580038F701 /* CardMusicPlayerView.swift */; };
+		7E8FD8622D58F2650038F701 /* CardMusicViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8FD8612D58F2650038F701 /* CardMusicViewModel.swift */; };
+		7E8FD8642D59077B0038F701 /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8FD8632D59077B0038F701 /* RoundedCorner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +65,19 @@
 		7E8FD8332D58C1AF0038F701 /* NetworkInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkInterface.swift; sourceTree = "<group>"; };
 		7E8FD8352D58C2C00038F701 /* NetworkProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProvider.swift; sourceTree = "<group>"; };
 		7E8FD8382D58C30E0038F701 /* CustomError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
+		7E8FD83B2D58CCD50038F701 /* SpectrumVisualizerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpectrumVisualizerView.swift; sourceTree = "<group>"; };
+		7E8FD83D2D58CEC80038F701 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		7E8FD8412D58CF100038F701 /* HomeTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTarget.swift; sourceTree = "<group>"; };
+		7E8FD8432D58D0500038F701 /* SongResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongResponse.swift; sourceTree = "<group>"; };
+		7E8FD8462D58D27F0038F701 /* AnyPublisher+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AnyPublisher+Ext.swift"; sourceTree = "<group>"; };
+		7E8FD8482D58DCA00038F701 /* SongItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongItemView.swift; sourceTree = "<group>"; };
+		7E8FD84A2D58E35A0038F701 /* ViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewState.swift; sourceTree = "<group>"; };
+		7E8FD84D2D58E5170038F701 /* Shimmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shimmer.swift; sourceTree = "<group>"; };
+		7E8FD8592D58EABE0038F701 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		7E8FD85B2D58EC7A0038F701 /* EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
+		7E8FD85D2D58ED580038F701 /* CardMusicPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardMusicPlayerView.swift; sourceTree = "<group>"; };
+		7E8FD8612D58F2650038F701 /* CardMusicViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardMusicViewModel.swift; sourceTree = "<group>"; };
+		7E8FD8632D59077B0038F701 /* RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +130,8 @@
 		7E8FD7FB2D58B3120038F701 /* Harmonia */ = {
 			isa = PBXGroup;
 			children = (
+				7E8FD84C2D58E50E0038F701 /* Element */,
+				7E8FD8452D58D26A0038F701 /* Extension */,
 				7E8FD8312D58BFF80038F701 /* Core */,
 				7E8FD8282D58BC2C0038F701 /* Module */,
 				7E8FD8272D58BC0D0038F701 /* Asset */,
@@ -157,6 +185,7 @@
 		7E8FD8282D58BC2C0038F701 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				7E8FD8602D58F2010038F701 /* CardMusicPlayer */,
 				7E8FD8292D58BC310038F701 /* Home */,
 			);
 			path = Module;
@@ -165,7 +194,11 @@
 		7E8FD8292D58BC310038F701 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				7E8FD8402D58CEF60038F701 /* Network */,
+				7E8FD83F2D58CEF30038F701 /* Model */,
+				7E8FD83A2D58CCC90038F701 /* subview */,
 				7E8FD82A2D58BC470038F701 /* HomeView.swift */,
+				7E8FD83D2D58CEC80038F701 /* HomeViewModel.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -192,8 +225,62 @@
 			isa = PBXGroup;
 			children = (
 				7E8FD8382D58C30E0038F701 /* CustomError.swift */,
+				7E8FD84A2D58E35A0038F701 /* ViewState.swift */,
 			);
 			path = Component;
+			sourceTree = "<group>";
+		};
+		7E8FD83A2D58CCC90038F701 /* subview */ = {
+			isa = PBXGroup;
+			children = (
+				7E8FD83B2D58CCD50038F701 /* SpectrumVisualizerView.swift */,
+				7E8FD8482D58DCA00038F701 /* SongItemView.swift */,
+			);
+			path = subview;
+			sourceTree = "<group>";
+		};
+		7E8FD83F2D58CEF30038F701 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7E8FD8432D58D0500038F701 /* SongResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7E8FD8402D58CEF60038F701 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				7E8FD8412D58CF100038F701 /* HomeTarget.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		7E8FD8452D58D26A0038F701 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7E8FD8462D58D27F0038F701 /* AnyPublisher+Ext.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		7E8FD84C2D58E50E0038F701 /* Element */ = {
+			isa = PBXGroup;
+			children = (
+				7E8FD84D2D58E5170038F701 /* Shimmer.swift */,
+				7E8FD8592D58EABE0038F701 /* ErrorView.swift */,
+				7E8FD85B2D58EC7A0038F701 /* EmptyView.swift */,
+				7E8FD8632D59077B0038F701 /* RoundedCorner.swift */,
+			);
+			path = Element;
+			sourceTree = "<group>";
+		};
+		7E8FD8602D58F2010038F701 /* CardMusicPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				7E8FD85D2D58ED580038F701 /* CardMusicPlayerView.swift */,
+				7E8FD8612D58F2650038F701 /* CardMusicViewModel.swift */,
+			);
+			path = CardMusicPlayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -334,9 +421,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E8FD8392D58C30E0038F701 /* CustomError.swift in Sources */,
+				7E8FD85C2D58EC7A0038F701 /* EmptyView.swift in Sources */,
+				7E8FD83C2D58CCD50038F701 /* SpectrumVisualizerView.swift in Sources */,
+				7E8FD84B2D58E35A0038F701 /* ViewState.swift in Sources */,
+				7E8FD83E2D58CEC80038F701 /* HomeViewModel.swift in Sources */,
+				7E8FD8422D58CF100038F701 /* HomeTarget.swift in Sources */,
 				7E8FD82B2D58BC470038F701 /* HomeView.swift in Sources */,
+				7E8FD8622D58F2650038F701 /* CardMusicViewModel.swift in Sources */,
+				7E8FD85E2D58ED580038F701 /* CardMusicPlayerView.swift in Sources */,
+				7E8FD8472D58D27F0038F701 /* AnyPublisher+Ext.swift in Sources */,
+				7E8FD84E2D58E5170038F701 /* Shimmer.swift in Sources */,
+				7E8FD8442D58D0500038F701 /* SongResponse.swift in Sources */,
+				7E8FD8642D59077B0038F701 /* RoundedCorner.swift in Sources */,
 				7E8FD8362D58C2C00038F701 /* NetworkProvider.swift in Sources */,
 				7E8FD8342D58C1AF0038F701 /* NetworkInterface.swift in Sources */,
+				7E8FD85A2D58EABE0038F701 /* ErrorView.swift in Sources */,
+				7E8FD8492D58DCA00038F701 /* SongItemView.swift in Sources */,
 				7E8FD7FD2D58B3120038F701 /* HarmoniaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
