@@ -10,7 +10,7 @@ import Combine
 
 class HomeViewModel: ObservableObject {
     
-    private let provider = NetworkProvider<HomeTarget>()
+    var provider = NetworkProvider<HomeTarget>()
     private var cancellables = Set<AnyCancellable>()
     
     @Published var searchQuery: String
