@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E8FD7FD2D58B3120038F701 /* HarmoniaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8FD7FC2D58B3120038F701 /* HarmoniaApp.swift */; };
+		7E8FD7FF2D58B3120038F701 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8FD7FE2D58B3120038F701 /* ContentView.swift */; };
+		7E8FD8012D58B3140038F701 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E8FD8002D58B3140038F701 /* Assets.xcassets */; };
+		7E8FD8042D58B3140038F701 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E8FD8032D58B3140038F701 /* Preview Assets.xcassets */; };
+		7E8FD80E2D58B3140038F701 /* HarmoniaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8FD80D2D58B3140038F701 /* HarmoniaTests.swift */; };
+		7E8FD8182D58B3140038F701 /* HarmoniaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8FD8172D58B3140038F701 /* HarmoniaUITests.swift */; };
+		7E8FD81A2D58B3140038F701 /* HarmoniaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8FD8192D58B3140038F701 /* HarmoniaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E8FD80A2D58B3140038F701 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E8FD7F12D58B3120038F701 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E8FD7F82D58B3120038F701;
+			remoteInfo = Harmonia;
+		};
+		7E8FD8142D58B3140038F701 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E8FD7F12D58B3120038F701 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E8FD7F82D58B3120038F701;
+			remoteInfo = Harmonia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E8FD7F92D58B3120038F701 /* Harmonia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Harmonia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E8FD7FC2D58B3120038F701 /* HarmoniaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarmoniaApp.swift; sourceTree = "<group>"; };
+		7E8FD7FE2D58B3120038F701 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7E8FD8002D58B3140038F701 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E8FD8032D58B3140038F701 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7E8FD8092D58B3140038F701 /* HarmoniaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HarmoniaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E8FD80D2D58B3140038F701 /* HarmoniaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarmoniaTests.swift; sourceTree = "<group>"; };
+		7E8FD8132D58B3140038F701 /* HarmoniaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HarmoniaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E8FD8172D58B3140038F701 /* HarmoniaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarmoniaUITests.swift; sourceTree = "<group>"; };
+		7E8FD8192D58B3140038F701 /* HarmoniaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarmoniaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E8FD7F62D58B3120038F701 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E8FD8062D58B3140038F701 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E8FD8102D58B3140038F701 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E8FD7F02D58B3120038F701 = {
+			isa = PBXGroup;
+			children = (
+				7E8FD7FB2D58B3120038F701 /* Harmonia */,
+				7E8FD80C2D58B3140038F701 /* HarmoniaTests */,
+				7E8FD8162D58B3140038F701 /* HarmoniaUITests */,
+				7E8FD7FA2D58B3120038F701 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E8FD7FA2D58B3120038F701 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E8FD7F92D58B3120038F701 /* Harmonia.app */,
+				7E8FD8092D58B3140038F701 /* HarmoniaTests.xctest */,
+				7E8FD8132D58B3140038F701 /* HarmoniaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E8FD7FB2D58B3120038F701 /* Harmonia */ = {
+			isa = PBXGroup;
+			children = (
+				7E8FD7FC2D58B3120038F701 /* HarmoniaApp.swift */,
+				7E8FD7FE2D58B3120038F701 /* ContentView.swift */,
+				7E8FD8002D58B3140038F701 /* Assets.xcassets */,
+				7E8FD8022D58B3140038F701 /* Preview Content */,
+			);
+			path = Harmonia;
+			sourceTree = "<group>";
+		};
+		7E8FD8022D58B3140038F701 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7E8FD8032D58B3140038F701 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7E8FD80C2D58B3140038F701 /* HarmoniaTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E8FD80D2D58B3140038F701 /* HarmoniaTests.swift */,
+			);
+			path = HarmoniaTests;
+			sourceTree = "<group>";
+		};
+		7E8FD8162D58B3140038F701 /* HarmoniaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E8FD8172D58B3140038F701 /* HarmoniaUITests.swift */,
+				7E8FD8192D58B3140038F701 /* HarmoniaUITestsLaunchTests.swift */,
+			);
+			path = HarmoniaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E8FD7F82D58B3120038F701 /* Harmonia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E8FD81D2D58B3140038F701 /* Build configuration list for PBXNativeTarget "Harmonia" */;
+			buildPhases = (
+				7E8FD7F52D58B3120038F701 /* Sources */,
+				7E8FD7F62D58B3120038F701 /* Frameworks */,
+				7E8FD7F72D58B3120038F701 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Harmonia;
+			productName = Harmonia;
+			productReference = 7E8FD7F92D58B3120038F701 /* Harmonia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E8FD8082D58B3140038F701 /* HarmoniaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E8FD8202D58B3140038F701 /* Build configuration list for PBXNativeTarget "HarmoniaTests" */;
+			buildPhases = (
+				7E8FD8052D58B3140038F701 /* Sources */,
+				7E8FD8062D58B3140038F701 /* Frameworks */,
+				7E8FD8072D58B3140038F701 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E8FD80B2D58B3140038F701 /* PBXTargetDependency */,
+			);
+			name = HarmoniaTests;
+			productName = HarmoniaTests;
+			productReference = 7E8FD8092D58B3140038F701 /* HarmoniaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E8FD8122D58B3140038F701 /* HarmoniaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E8FD8232D58B3140038F701 /* Build configuration list for PBXNativeTarget "HarmoniaUITests" */;
+			buildPhases = (
+				7E8FD80F2D58B3140038F701 /* Sources */,
+				7E8FD8102D58B3140038F701 /* Frameworks */,
+				7E8FD8112D58B3140038F701 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E8FD8152D58B3140038F701 /* PBXTargetDependency */,
+			);
+			name = HarmoniaUITests;
+			productName = HarmoniaUITests;
+			productReference = 7E8FD8132D58B3140038F701 /* HarmoniaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E8FD7F12D58B3120038F701 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					7E8FD7F82D58B3120038F701 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					7E8FD8082D58B3140038F701 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 7E8FD7F82D58B3120038F701;
+					};
+					7E8FD8122D58B3140038F701 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 7E8FD7F82D58B3120038F701;
+					};
+				};
+			};
+			buildConfigurationList = 7E8FD7F42D58B3120038F701 /* Build configuration list for PBXProject "Harmonia" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E8FD7F02D58B3120038F701;
+			productRefGroup = 7E8FD7FA2D58B3120038F701 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E8FD7F82D58B3120038F701 /* Harmonia */,
+				7E8FD8082D58B3140038F701 /* HarmoniaTests */,
+				7E8FD8122D58B3140038F701 /* HarmoniaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E8FD7F72D58B3120038F701 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E8FD8042D58B3140038F701 /* Preview Assets.xcassets in Resources */,
+				7E8FD8012D58B3140038F701 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E8FD8072D58B3140038F701 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E8FD8112D58B3140038F701 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E8FD7F52D58B3120038F701 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E8FD7FF2D58B3120038F701 /* ContentView.swift in Sources */,
+				7E8FD7FD2D58B3120038F701 /* HarmoniaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E8FD8052D58B3140038F701 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E8FD80E2D58B3140038F701 /* HarmoniaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E8FD80F2D58B3140038F701 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E8FD81A2D58B3140038F701 /* HarmoniaUITestsLaunchTests.swift in Sources */,
+				7E8FD8182D58B3140038F701 /* HarmoniaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E8FD80B2D58B3140038F701 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E8FD7F82D58B3120038F701 /* Harmonia */;
+			targetProxy = 7E8FD80A2D58B3140038F701 /* PBXContainerItemProxy */;
+		};
+		7E8FD8152D58B3140038F701 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E8FD7F82D58B3120038F701 /* Harmonia */;
+			targetProxy = 7E8FD8142D58B3140038F701 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7E8FD81B2D58B3140038F701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7E8FD81C2D58B3140038F701 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E8FD81E2D58B3140038F701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Harmonia/Preview Content\"";
+				DEVELOPMENT_TEAM = 3F8C4P2T95;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.harmonia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E8FD81F2D58B3140038F701 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Harmonia/Preview Content\"";
+				DEVELOPMENT_TEAM = 3F8C4P2T95;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.harmonia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7E8FD8212D58B3140038F701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3F8C4P2T95;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HarmoniaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Harmonia.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Harmonia";
+			};
+			name = Debug;
+		};
+		7E8FD8222D58B3140038F701 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3F8C4P2T95;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HarmoniaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Harmonia.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Harmonia";
+			};
+			name = Release;
+		};
+		7E8FD8242D58B3140038F701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3F8C4P2T95;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HarmoniaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Harmonia;
+			};
+			name = Debug;
+		};
+		7E8FD8252D58B3140038F701 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3F8C4P2T95;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HarmoniaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Harmonia;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E8FD7F42D58B3120038F701 /* Build configuration list for PBXProject "Harmonia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E8FD81B2D58B3140038F701 /* Debug */,
+				7E8FD81C2D58B3140038F701 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E8FD81D2D58B3140038F701 /* Build configuration list for PBXNativeTarget "Harmonia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E8FD81E2D58B3140038F701 /* Debug */,
+				7E8FD81F2D58B3140038F701 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E8FD8202D58B3140038F701 /* Build configuration list for PBXNativeTarget "HarmoniaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E8FD8212D58B3140038F701 /* Debug */,
+				7E8FD8222D58B3140038F701 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E8FD8232D58B3140038F701 /* Build configuration list for PBXNativeTarget "HarmoniaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E8FD8242D58B3140038F701 /* Debug */,
+				7E8FD8252D58B3140038F701 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E8FD7F12D58B3120038F701 /* Project object */;
+}

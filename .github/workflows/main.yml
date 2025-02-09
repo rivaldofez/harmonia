@@ -1,0 +1,51 @@
+name: Harmonia CI
+
+on:
+  push:
+    branches: [main, staging]
+  pull_request:
+    branches: [main, staging]
+
+jobs:
+  unit-tests:
+    name: Run Unit Tests
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Select Xcode Version
+        run: sudo xcode-select -switch /Applications/Xcode.app/Contents/Developer
+
+      - name: Run Unit Tests
+        run: |
+          xcodebuild test \
+            -project Harmonia.xcodeproj \
+            -scheme HarmoniaTests \
+            -destination 'platform=iOS Simulator,name=iPhone 15,OS=latest' \
+            -only-testing:HarmoniaTests \
+            CODE_SIGNING_ALLOWED=NO
+
+  ui-tests:
+    name: Run UI Tests
+    runs-on: matos-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Select Xcode Version
+        run: sudo xcode-select -switch /Applications/Xcode.app/Contents/Developer
+
+      - name: Boot Simulator
+        run: xcrun simctl boot "iPhone 15"
+
+      - name: Run UI Tests
+        run: |
+          xcodebuild test \
+            -project Harmonia.xcodeproj \
+            -scheme HarmoniaUITests \
+            -destination 'platform=iOS Simulator,name=iPhone 15,OS=latest' \
+            -only-testing:HarmoniaUITests \
+            CODE_SIGNING_ALLOWED=NO
