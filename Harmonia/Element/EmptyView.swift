@@ -1,5 +1,5 @@
 //
-//  ErrorView.swift
+//  EmptyView.swift
 //  Harmonia
 //
 //  Created by Rivaldo Fernandes on 09/02/25.
@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct ErrorView: View {
-    var message: String
+struct EmptyView: View {
+    var message: String = "There is no data from your request, please try with another"
     
     var body: some View {
         VStack(spacing: 8) {
-            Image(systemName: "x.square")
+            Image(systemName: "shippingbox.fill")
                 .resizable()
                 .scaledToFit()
                 .frame(width: 120, height: 120)
@@ -27,5 +27,5 @@ struct ErrorView: View {
 }
 
 #Preview {
-    ErrorView(message: "Lorem ipsum dolor sit amet")
+    EmptyView()
 }
