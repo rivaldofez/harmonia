@@ -18,8 +18,9 @@ struct ErrorView: View {
                 .frame(width: 120, height: 120)
             
             Text(message)
-                .font(.title2)
+                .font(.callout)
                 .foregroundColor(.primary)
+                .multilineTextAlignment(.center)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .padding()
