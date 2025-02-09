@@ -71,3 +71,41 @@ struct SongItemView: View {
         }
     }
 }
+
+struct SongItemViewShimmer: View {
+    var body: some View {
+        HStack(alignment: .center, spacing: 16) {
+            RoundedRectangle(cornerRadius: 8)
+                .fill(Color.gray.opacity(0.3))
+                .frame(width: 80, height: 80)
+                .shimmer()
+            
+            VStack(alignment: .leading, spacing: 4) {
+                RoundedRectangle(cornerRadius: 8)
+                    .fill(Color.gray.opacity(0.3))
+                    .frame(height: 16)
+                    .shimmer()
+                
+                RoundedRectangle(cornerRadius: 8)
+                    .fill(Color.gray.opacity(0.3))
+                    .frame(maxWidth: .infinity)
+                    .frame(height: 16)
+                    .shimmer()
+                
+                RoundedRectangle(cornerRadius: 8)
+                    .fill(Color.gray.opacity(0.3))
+                    .frame(maxWidth: .infinity)
+                    .frame(height: 16)
+                    .shimmer()
+            }
+            
+            Spacer()
+            
+            RoundedRectangle(cornerRadius: 8)
+                .fill(Color.gray.opacity(0.3))
+                .frame(width: 40, height: 30)
+                .shimmer()
+        }
+    }
+}
+
