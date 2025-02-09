@@ -67,7 +67,6 @@ struct SongItemView: View {
             Spacer()
             
             SpectrumVisualizerView(state: playerState, width: 20, height: 60)
-                .preferredColorScheme(.light)
         }
     }
 }
