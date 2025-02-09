@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		7E8FD7FD2D58B3120038F701 /* HarmoniaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8FD7FC2D58B3120038F701 /* HarmoniaApp.swift */; };
-		7E8FD7FF2D58B3120038F701 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8FD7FE2D58B3120038F701 /* ContentView.swift */; };
 		7E8FD8012D58B3140038F701 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E8FD8002D58B3140038F701 /* Assets.xcassets */; };
 		7E8FD8042D58B3140038F701 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E8FD8032D58B3140038F701 /* Preview Assets.xcassets */; };
 		7E8FD80E2D58B3140038F701 /* HarmoniaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8FD80D2D58B3140038F701 /* HarmoniaTests.swift */; };
 		7E8FD8182D58B3140038F701 /* HarmoniaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8FD8172D58B3140038F701 /* HarmoniaUITests.swift */; };
 		7E8FD81A2D58B3140038F701 /* HarmoniaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8FD8192D58B3140038F701 /* HarmoniaUITestsLaunchTests.swift */; };
+		7E8FD82B2D58BC470038F701 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8FD82A2D58BC470038F701 /* HomeView.swift */; };
+		7E8FD82E2D58BFD90038F701 /* CombineMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 7E8FD82D2D58BFD90038F701 /* CombineMoya */; };
+		7E8FD8302D58BFD90038F701 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 7E8FD82F2D58BFD90038F701 /* Moya */; };
+		7E8FD8342D58C1AF0038F701 /* NetworkInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8FD8332D58C1AF0038F701 /* NetworkInterface.swift */; };
+		7E8FD8362D58C2C00038F701 /* NetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8FD8352D58C2C00038F701 /* NetworkProvider.swift */; };
+		7E8FD8392D58C30E0038F701 /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8FD8382D58C30E0038F701 /* CustomError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,6 @@
 /* Begin PBXFileReference section */
 		7E8FD7F92D58B3120038F701 /* Harmonia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Harmonia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E8FD7FC2D58B3120038F701 /* HarmoniaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarmoniaApp.swift; sourceTree = "<group>"; };
-		7E8FD7FE2D58B3120038F701 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7E8FD8002D58B3140038F701 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E8FD8032D58B3140038F701 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7E8FD8092D58B3140038F701 /* HarmoniaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HarmoniaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +48,10 @@
 		7E8FD8132D58B3140038F701 /* HarmoniaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HarmoniaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E8FD8172D58B3140038F701 /* HarmoniaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarmoniaUITests.swift; sourceTree = "<group>"; };
 		7E8FD8192D58B3140038F701 /* HarmoniaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarmoniaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7E8FD82A2D58BC470038F701 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7E8FD8332D58C1AF0038F701 /* NetworkInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkInterface.swift; sourceTree = "<group>"; };
+		7E8FD8352D58C2C00038F701 /* NetworkProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProvider.swift; sourceTree = "<group>"; };
+		7E8FD8382D58C30E0038F701 /* CustomError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E8FD8302D58BFD90038F701 /* Moya in Frameworks */,
+				7E8FD82E2D58BFD90038F701 /* CombineMoya in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,9 +104,10 @@
 		7E8FD7FB2D58B3120038F701 /* Harmonia */ = {
 			isa = PBXGroup;
 			children = (
-				7E8FD7FC2D58B3120038F701 /* HarmoniaApp.swift */,
-				7E8FD7FE2D58B3120038F701 /* ContentView.swift */,
-				7E8FD8002D58B3140038F701 /* Assets.xcassets */,
+				7E8FD8312D58BFF80038F701 /* Core */,
+				7E8FD8282D58BC2C0038F701 /* Module */,
+				7E8FD8272D58BC0D0038F701 /* Asset */,
+				7E8FD8262D58BBEB0038F701 /* App */,
 				7E8FD8022D58B3140038F701 /* Preview Content */,
 			);
 			path = Harmonia;
@@ -127,6 +138,64 @@
 			path = HarmoniaUITests;
 			sourceTree = "<group>";
 		};
+		7E8FD8262D58BBEB0038F701 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				7E8FD7FC2D58B3120038F701 /* HarmoniaApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		7E8FD8272D58BC0D0038F701 /* Asset */ = {
+			isa = PBXGroup;
+			children = (
+				7E8FD8002D58B3140038F701 /* Assets.xcassets */,
+			);
+			path = Asset;
+			sourceTree = "<group>";
+		};
+		7E8FD8282D58BC2C0038F701 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				7E8FD8292D58BC310038F701 /* Home */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		7E8FD8292D58BC310038F701 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7E8FD82A2D58BC470038F701 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7E8FD8312D58BFF80038F701 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				7E8FD8372D58C3050038F701 /* Component */,
+				7E8FD8322D58C1A50038F701 /* Networking */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		7E8FD8322D58C1A50038F701 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				7E8FD8332D58C1AF0038F701 /* NetworkInterface.swift */,
+				7E8FD8352D58C2C00038F701 /* NetworkProvider.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		7E8FD8372D58C3050038F701 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				7E8FD8382D58C30E0038F701 /* CustomError.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +212,10 @@
 			dependencies = (
 			);
 			name = Harmonia;
+			packageProductDependencies = (
+				7E8FD82D2D58BFD90038F701 /* CombineMoya */,
+				7E8FD82F2D58BFD90038F701 /* Moya */,
+			);
 			productName = Harmonia;
 			productReference = 7E8FD7F92D58B3120038F701 /* Harmonia.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +288,9 @@
 				Base,
 			);
 			mainGroup = 7E8FD7F02D58B3120038F701;
+			packageReferences = (
+				7E8FD82C2D58BFD90038F701 /* XCRemoteSwiftPackageReference "Moya" */,
+			);
 			productRefGroup = 7E8FD7FA2D58B3120038F701 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,7 +333,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E8FD7FF2D58B3120038F701 /* ContentView.swift in Sources */,
+				7E8FD8392D58C30E0038F701 /* CustomError.swift in Sources */,
+				7E8FD82B2D58BC470038F701 /* HomeView.swift in Sources */,
+				7E8FD8362D58C2C00038F701 /* NetworkProvider.swift in Sources */,
+				7E8FD8342D58C1AF0038F701 /* NetworkInterface.swift in Sources */,
 				7E8FD7FD2D58B3120038F701 /* HarmoniaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -588,6 +667,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7E8FD82C2D58BFD90038F701 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7E8FD82D2D58BFD90038F701 /* CombineMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7E8FD82C2D58BFD90038F701 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = CombineMoya;
+		};
+		7E8FD82F2D58BFD90038F701 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7E8FD82C2D58BFD90038F701 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7E8FD7F12D58B3120038F701 /* Project object */;
 }
