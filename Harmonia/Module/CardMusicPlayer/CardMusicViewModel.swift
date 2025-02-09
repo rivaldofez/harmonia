@@ -73,6 +73,9 @@ class MusicPlayerViewModel: ObservableObject {
         if isPlaying {
             player.pause()
         } else {
+            if currentTime >= duration {
+                player.seek(to: .zero)
+            }
             player.play()
         }
         isPlaying.toggle()
