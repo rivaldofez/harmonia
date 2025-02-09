@@ -17,6 +17,8 @@
 		7E8FD82E2D58BFD90038F701 /* CombineMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 7E8FD82D2D58BFD90038F701 /* CombineMoya */; };
 		7E8FD8302D58BFD90038F701 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 7E8FD82F2D58BFD90038F701 /* Moya */; };
 		7E8FD8342D58C1AF0038F701 /* NetworkInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8FD8332D58C1AF0038F701 /* NetworkInterface.swift */; };
+		7E8FD8362D58C2C00038F701 /* NetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8FD8352D58C2C00038F701 /* NetworkProvider.swift */; };
+		7E8FD8392D58C30E0038F701 /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8FD8382D58C30E0038F701 /* CustomError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		7E8FD8192D58B3140038F701 /* HarmoniaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarmoniaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7E8FD82A2D58BC470038F701 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		7E8FD8332D58C1AF0038F701 /* NetworkInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkInterface.swift; sourceTree = "<group>"; };
+		7E8FD8352D58C2C00038F701 /* NetworkProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProvider.swift; sourceTree = "<group>"; };
+		7E8FD8382D58C30E0038F701 /* CustomError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +173,7 @@
 		7E8FD8312D58BFF80038F701 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				7E8FD8372D58C3050038F701 /* Component */,
 				7E8FD8322D58C1A50038F701 /* Networking */,
 			);
 			path = Core;
@@ -178,8 +183,17 @@
 			isa = PBXGroup;
 			children = (
 				7E8FD8332D58C1AF0038F701 /* NetworkInterface.swift */,
+				7E8FD8352D58C2C00038F701 /* NetworkProvider.swift */,
 			);
 			path = Networking;
+			sourceTree = "<group>";
+		};
+		7E8FD8372D58C3050038F701 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				7E8FD8382D58C30E0038F701 /* CustomError.swift */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -319,7 +333,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E8FD8392D58C30E0038F701 /* CustomError.swift in Sources */,
 				7E8FD82B2D58BC470038F701 /* HomeView.swift in Sources */,
+				7E8FD8362D58C2C00038F701 /* NetworkProvider.swift in Sources */,
 				7E8FD8342D58C1AF0038F701 /* NetworkInterface.swift in Sources */,
 				7E8FD7FD2D58B3120038F701 /* HarmoniaApp.swift in Sources */,
 			);
